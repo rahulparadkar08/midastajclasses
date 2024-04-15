@@ -1,0 +1,161 @@
+nav div div .nav-item .nav-link {
+  font-weight: 600px !important;
+  color: white !important;
+}
+
+.nav-item .nav-link:hover {
+  color: yellow !important;
+}
+
+.navbar-toggler-icon {
+  background-image: url("./images/button.png");
+}
+
+.navbar-toggler {
+  border-color: #fff9c4;
+}
+
+.navbar-toggler:focus {
+  box-shadow: 0 0 0 0;
+}
+
+.whatsnew {
+  padding: 35px;
+  background-color: #b70031;
+  border-radius: 15px;
+}
+
+.whatsnew .heading2 {
+  color: #ffca2c;
+  padding-bottom: 20px;
+}
+
+.whatsnew ul strong {
+  color: white;
+}
+
+.whatsnew ul a {
+  color: #fffde7;
+  text-decoration: none !important;
+}
+
+.social-links .svg {
+  width: 20px;
+  height: 20px;
+}
+.social-links li {
+  padding-right: 30px;
+}
+.footer-menu .navbar-brand img {
+  display: block;
+  margin: auto;
+}
+
+footer .widget-title {
+  color: #b70031;
+}
+
+.textmobilecenter .menu-item a {
+  color: black;
+  text-decoration: none;
+}
+
+.menu-list a::before {
+  content: "";
+  display: inline-block;
+  width: 20px; /* Adjust the width of the arrow */
+  height: 20px; /* Adjust the height of the arrow */
+  background-image: url("images/arrow.svg"); /* Replace 'path/to/your/arrow.svg' with the actual path to your SVG arrow image */
+  background-size: contain; /* Ensure the arrow image fits within the specified dimensions */
+  background-repeat: no-repeat; /* Prevent the arrow image from repeating */
+  margin-right: 8px; /* Adjust the spacing between the arrow and the text */
+}
+
+.menu-list li:hover a {
+  color: #b70031;
+  font-weight: 500;
+}
+.footer-menu svg {
+  color: #b70031;
+  width: 20px;
+  height: 20px;
+}
+.footer-menu svg:hover {
+  color: black;
+  font-size: 30px;
+}
+
+#footer-bottom .bottom-last-row {
+  display: flex;
+  justify-content: center;
+  padding: 0px 0px 20px 0px;
+  color: white;
+  font-size: medium;
+}
+
+#footer-bottom .terms-block {
+  display: flex;
+  justify-content: center;
+  padding: 10px 0px 0px 0px;
+  color: #ffca2c;
+}
+
+#footer-bottom .terms-block a {
+  color: white;
+  padding: 0px 5px;
+  text-decoration: none;
+}
+
+#footer-bottom .terms-block a:hover {
+  color: #ffca2c;
+  padding: 0px 5px;
+  text-decoration: none;
+}
+
+.twoColor {
+    text-align: center;
+    font-size: 3rem; /* Adjust the font size as needed */
+    font-weight: 700;
+    white-space: nowrap; /* Prevent line breaks */
+    overflow: hidden; /* Hide overflow text */
+    padding: 6px 0px;
+
+  }
+  
+  .twoColor .headingTitleNormal {
+    color: black;
+  }
+  
+  .twoColor .headingTitleGradient {
+    background: -webkit-linear-gradient(#b70031, #ff084a);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+  }
+  
+@media only screen and (max-width: 600px) {
+  .textmobilecenter {
+    text-align: center;
+  }
+  .menu-list a::before {
+    display: none;
+  }
+  .footer-menu #address {
+    text-align: center !important;
+  }
+  #whatsnewbox {
+    width: 100%;
+  }
+  .row-cols-1 {
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 85%; /* Adjust the width as needed */
+  }
+}
+
+@media (max-width: 767px) {
+    .row-cols-1 {
+      margin-left: auto;
+      margin-right: auto;
+      max-width: 85%; /* Adjust the width as needed */
+    }
+  }

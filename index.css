@@ -247,5 +247,13 @@ footer .widget-title {
       height: 100px;
     }
 
+    @media screen and (max-width: 600px) {
+      .customLogoItems img {
+        height: 100px;
+      }
 
+      .logos img {
+        height: 100px;
+      }
+    }
   /* horizontal scrolling gallery end */

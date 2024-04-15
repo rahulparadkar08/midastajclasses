@@ -52,51 +52,40 @@ nav div div .nav-item .nav-link {
 }
 
 footer .widget-title {
-  color: #b70031;
+  color: #fffb00;
 }
 
 .textmobilecenter .menu-item a {
-  color: black;
+  color: white;
   text-decoration: none;
 }
 
-.menu-list a::before {
-  content: "";
-  display: inline-block;
-  width: 20px; /* Adjust the width of the arrow */
-  height: 20px; /* Adjust the height of the arrow */
-  background-image: url("images/arrow.svg"); /* Replace 'path/to/your/arrow.svg' with the actual path to your SVG arrow image */
-  background-size: contain; /* Ensure the arrow image fits within the specified dimensions */
-  background-repeat: no-repeat; /* Prevent the arrow image from repeating */
-  margin-right: 8px; /* Adjust the spacing between the arrow and the text */
-}
+
 
 .menu-list li:hover a {
-  color: #b70031;
+  color: #fffb00;
   font-weight: 500;
 }
 .footer-menu svg {
-  color: #b70031;
+  color:#fffb00;
   width: 20px;
   height: 20px;
 }
 .footer-menu svg:hover {
-  color: black;
+  color:#fffb00;
   font-size: 30px;
 }
 
 #footer-bottom .bottom-last-row {
-  display: flex;
-  justify-content: center;
-  padding: 0px 0px 20px 0px;
+  text-align: center;
+  padding: 20px 0px;
   color: white;
   font-size: medium;
 }
 
 #footer-bottom .terms-block {
-  display: flex;
-  justify-content: center;
-  padding: 10px 0px 0px 0px;
+  text-align: center;
+  padding: 10px 0px;
   color: #ffca2c;
 }
 

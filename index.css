@@ -148,3 +148,104 @@ footer .widget-title {
       max-width: 85%; /* Adjust the width as needed */
     }
   }
+
+
+/* :horizontal scrolling gallery start*/
+@keyframes slides {
+  from {
+    transform: translateX(0);
+  }
+  to {
+    transform: translateX(-100%);
+  }
+}
+
+.logos {
+  overflow: hidden;
+  white-space: nowrap;
+  position: relative;
+  padding: 5px 0px;
+}
+
+.logos:before, .logos:after {
+  position: absolute;
+  top: 0;
+  content: '';
+  width: 250px;
+  height: 100%;
+  z-index: 2;
+}
+
+.logos:before {
+  left: 0;
+  background: linear-gradient(to left, rgba(255,255,255,0), rgb(255, 255, 255));
+}
+
+.logos:after {
+  right: 0;
+  background: linear-gradient(to right, rgba(255,255,255,0), rgb(255, 255, 255));
+}
+
+.logo_items {
+  display: inline-block;
+  animation: 35s slides infinite linear;
+}
+
+.logos:hover .logo_items {
+  animation-play-state: paused;
+}
+
+.logo_items img{
+  height: 100px;
+}
+
+@keyframes customSlides {
+      from {
+        transform: translateX(-100%);
+      }
+      to {
+        transform: translateX(0%);
+      }
+    }
+
+    .customLogos {
+      overflow: hidden;
+      white-space: nowrap;
+      position: relative;
+      padding: 0px 0px 5px 0px;
+    }
+
+    .customLogos:before, .customLogos:after {
+      position: absolute;
+      top: 0;
+      content: '';
+      width: 250px;
+      height: 100%;
+      z-index: 2;
+    }
+
+    .customLogos:before {
+      left: 0;
+      background: linear-gradient(to left, rgba(255,255,255,0), rgb(255, 255, 255));
+    }
+
+    .customLogos:after {
+      right: 0;
+      background: linear-gradient(to right, rgba(255,255,255,0), rgb(255, 255, 255));
+    }
+
+    .customLogoItems {
+      display: inline-block;
+      animation: 35s customSlides infinite linear;
+    }
+
+    .customLogos:hover .customLogoItems {
+      animation-play-state: paused;
+    }
+
+    .customLogoItems img {
+      height: 100px;
+    }
+
+
+  /* horizontal scrolling gallery end */

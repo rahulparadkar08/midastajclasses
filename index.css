@@ -311,3 +311,8 @@ footer .widget-title {
   }
 }
 /* horizontal scrolling gallery end */
+
+/* blogs */
+.owl-dots{
+  display: none;
+}

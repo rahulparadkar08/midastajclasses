@@ -333,3 +333,9 @@ footer .widget-title {
 .banner-container {
   text-align: center;
 }
+
+
+.col .card{
+background-color: #b70031;
+color: white;
+}

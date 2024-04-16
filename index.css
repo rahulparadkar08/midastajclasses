@@ -316,3 +316,20 @@ footer .widget-title {
 .owl-dots{
   display: none;
 }
+
+
+/* @media screen and (max-width: 600px) {
+  .bannerimg {
+    width: 100%;
+  }
+} */
+
+.responsive-image {
+  max-width: 100%;
+  height: auto;
+}
+
+/* CSS to center the image horizontally */
+.banner-container {
+  text-align: center;
+}
